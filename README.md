@@ -31,5 +31,5 @@ pip install scapy
 5. The script will start sniffing network packets and display a warning message if an ARP spoofing attack is detected.
 6. Press Ctrl + C to stop the script.
 
-### Contributing
+## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
