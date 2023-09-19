@@ -11,6 +11,9 @@ The script utilizes the Scapy library, which provides powerful tools for network
 - Detects ARP spoofing attacks by comparing MAC addresses.
 - Provides a warning message when an attack is detected.
 
+## Screenshot
+![](https://github.com/SaherMuhamed/arp-spoof-detector/blob/master/screenshot/Screenshot%20from%202023-09-19%2010-28-24.png)
+
 ## Requirements
 - Python 3.x
 - Scapy library
