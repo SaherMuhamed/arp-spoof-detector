@@ -24,12 +24,10 @@ pip install scapy
 3. Open a terminal and navigate to the project directory.
 4. Run the following command to execute the script:
    ```commandline
-   python3 arp_spoofing_detector.py
+   python3 arpspoof_detector.py --interface <interface>
    ```
    By default, the script will sniff packets on the 'eth0' network interface. You can modify the interface by editing the sniff(interface='eth0') line in the script.
 
 5. The script will start sniffing network packets and display a warning message if an ARP spoofing attack is detected.
 6. Press Ctrl + C to stop the script.
 
-## Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
