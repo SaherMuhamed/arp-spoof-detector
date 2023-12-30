@@ -14,7 +14,7 @@ ARP spoofing is a type of attack where an attacker sends falsified Address Resol
 - Display the vendor of the attacking machine
 
 ## Screenshot
-![](https://github.com/SaherMuhamed/arp-spoof-detector/blob/master/screenshot/Screenshot%20from%202023-09-19%2010-28-24.png)
+![](https://github.com/SaherMuhamed/arp-spoof-detector/blob/master/screenshot/Screenshot%20from%202023-12-30%2019-05-30.png)
 
 ## Requirements
 - Python 3.x
@@ -35,4 +35,10 @@ pip install scapy requests
    By default, the script will sniff packets on the 'eth0' network interface. You can modify the interface by editing the sniff(interface='eth0') line in the script.
 
 5. The script will start sniffing network packets and display a warning message if an ARP spoofing attack is detected.
-6. Press Ctrl + C to stop the script.
+6. Press `Ctrl + C` to stop the script.
+
+### Updates
+`v1.0.1 - 30/12/2023`
+- adding more verbose outputs
+- improve detecting functionality
+  
